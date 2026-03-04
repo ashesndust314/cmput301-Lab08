@@ -18,6 +18,7 @@ public class City {
     }
 
     // edit for lab
+
     // To make "contains" work properly in tests
     @Override
     public boolean equals(Object o) {
