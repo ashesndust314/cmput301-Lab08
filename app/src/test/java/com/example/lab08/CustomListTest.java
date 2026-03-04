@@ -23,4 +23,11 @@ public class CustomListTest {
     public void testCount(){
         assertEquals(1, setup().count());
     }
+
+    @Test
+    public void testDeleteCity(){
+        CustomList list = setup();
+        list.deleteCity(mockCity());
+        assertEquals(0, list.count());
+    }
 }
